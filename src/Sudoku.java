@@ -39,7 +39,7 @@ public class Sudoku {
 		return q;
 	 }
 	
-	 public static boolean dfs(int x,int y,int[][]shudu,int[][]line,int[][]row,int[][]square)		//���� �����������+����
+	 public static boolean dfs(int x,int y,int[][]shudu,int[][]line,int[][]row,int[][]square)		 
 	 {
 		 if(x==rank&&y==rank)					
 			 return true;
